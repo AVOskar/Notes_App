@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(1,47,107);
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .note-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  
+  .notes {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .note {
+
+    align-items:center;
+    background-color: #f0e0e0;
+    padding: 25px;
+    margin: 8px;
+    border-radius: 10px;
+    height: 400px;
+    width: 940px;
+    box-shadow: 2px 2px 5px 2px #cacaca;
+  }
+  
+
+  .note-add {
+    display:flex;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 25 px;
+    cursor: pointer;
+    
+  }
+  
+  .note-edit {
+    padding: 4px;
+    cursor: pointer;
+  }
+  
+  .note-delete {
+    padding: 4px;
+    cursor: pointer;
+  }
+  .note-save{
+    padding: 4px;
+    cursor: pointer;
+    
+  }
+  .hidden {
+    display: none;
+  }
+ 
